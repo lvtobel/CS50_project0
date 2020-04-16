@@ -1,0 +1,43 @@
+#navigation_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+.navbar {
+  float: left;
+}
+
+.navbar_box{
+  display: block;
+  color: #424242;
+  text-align: center;
+  padding: 18px 16px;
+  background-color: #dddddd;
+  text-decoration:none;
+}
+
+.navbar_box:hover {
+  background-color: #E6E6E6;
+}
+
+.active{
+  background-color: #4CAF50;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
