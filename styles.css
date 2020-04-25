@@ -1,3 +1,13 @@
+@media only screen
+  and (max-width: 599px){
+    body { line-height: 1.0; }
+}
+
+@media only screen
+  and (min-width: 600px)  {
+    body { line-height: 1.5; }
+}
+
 #navigation_bar {
   list-style-type: none;
   margin: 0;

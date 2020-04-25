@@ -2,19 +2,22 @@
 <html>
     <head>
         <title>Chess</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
 
     </head>
     <body>
       <div>
       <ul id="navigation_bar">
-        <li class="navbar"><a class="navbar_box"href="Home.html">Home</a></li>
+        <li class="navbar"><a class="navbar_box"href="Home.html">Science</a></li>
         <li class="navbar"><a class="navbar_box active"href="Chess.html">Chess</a></li>
         <li class="navbar"><a class="navbar_box"href="Music.html">Music</a></li>
         <li class="navbar"><a class="navbar_box"href="Squash.html">Squash</a></li>
         <li class="navbar"><a class="navbar_box"href="Random.html">Random</a></li>
       </ul>
       </div>
+      <div class=".container"
       <p>
         <h2>The Chessboard</h2>
         A chessboard is labelled in a grid with letters and numbers. This is illustrated in this picture:
@@ -67,5 +70,20 @@
     </p>
     <p>The drastic drop from c4 (7.0%) to g3 (0.8%) shows how popular those four first moves are.
     </p>
+    <p>
+      <h2> Survey </h2>
+      Let's now see if this is also reflected amongst the readers of this not-so-useful site. Which is your favorite move to start a game, if any of those?
+      <form>
+        <input name="Opening" list="opening_moves" placeholder="First Move">
+        <datalist id="opening_moves">
+          <option value="e4">
+          <option value="d4">
+          <option value="Nf3">
+          <option value="c4">
+          <option value="g3">
+          </datalist>
+      </form>
+    </p>
+  </div>
     </body>
 </html>
