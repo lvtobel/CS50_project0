@@ -1,27 +1,73 @@
 <!DOCTYPE html>
 <html>
-<ul>
-  <li><a href="Home.html">Home</a></li>
-  <li><a href="Chess.html">Chess</a></li>
-  <li><a href="Music.html">Music</a></li>
-  <li><a href="Squash.html">Squash</a></li>
-  <li><a href="Random.html">Random</a></li>
-</ul>
     <head>
-        <title>Home</title>
+        <title>Music</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <style media="screen">
+          .card {
+            margin-left: 30px
+          }
+        </style>
     </head>
     <body>
-        <div>
-          <h1>Scientific publications</h1>
-          <p>During my time at ETH with Sabine Werner between 2007 and 2008 and during my time with Pierre Goenczy at EPFL between 2010 and 2016, I contributed and authored the following papers:
-          </p>
-          <ol>
-            <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/19307725">Loss of Serum Response Factor in keratinocytes results in hyperproliferative skin disease in mice</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/22492357">Analysis of centriole elimination during C. elegans oogenesis</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/25412110">SAS-1 is a C2 domain protein critical for centriole integrity in C. elegans</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/25906994">Paternally contributed centrioles exhibit exceptional persistence in C. elegans embryos</a></li>
-            <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/30801250">Aurora A depletion reveals centrosome-independent polarization mechanism in Caenorhabditis elegans</a></li>
-          </ol>
+      <div>
+      <ul id="navigation_bar">
+        <li class="navbar"><a class="navbar_box" href="Home.html">Science</a></li>
+        <li class="navbar"><a class="navbar_box"href="Chess.html">Chess</a></li>
+        <li class="navbar"><a class="navbar_box active"href="Music.html">Music</a></li>
+        <li class="navbar"><a class="navbar_box"href="Squash.html">Squash</a></li>
+        <li class="navbar"><a class="navbar_box"href="Random.html">Random</a></li>
+      </ul>
+      </div>
+      <div class="card bg-dark text-white">
+  <img src="media/pictures/music/lvt_bass.jpg" class="card-img" alt="bass-image">
+  <div class="card-img-overlay">
+    <h5 class="card-title">My passion - Double bass</h5>
+    <p class="card-text">I have started to play doulbe bass at the age of 8 and until today I love this instrument and I have played in several classical and jazz formation. Recently I have also ventured into Tango. Find a brief description of a few groups below.</p>
+  </div>
+</div>
+      <div class="card-group">
+        <div class="card">
+          <img src="media/pictures/music/tango.jpg" class="card-img-top" alt="tango">
+          <div class="card-body">
+            <h5 class="card-title">Jazz Tango</h5>
+            <p class="card-text">I recently joined this formation and we will be performing in the Geneva area.</p>
+            <p class="card-text"><small class="text-muted">Check our website <a href="https://mavanweelden.wixsite.com/gotango">here</a>.</small></p>
+          </div>
         </div>
+        <div class="card">
+          <img src="media/pictures/music/1.jpg" class="card-img-top" alt="good_day">
+          <div class="card-body">
+            <h5 class="card-title">Good Day</h5>
+            <p class="card-text">In this formation we played mostly music composed by Omri Ziegele.</p>
+            <p class="card-text"><small class="text-muted">A couple of samples can be listened to <a href="https://mx3.ch/goodday">here</a>.</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="media/pictures/music/latengroove.jpg" class="card-img-top" alt="latengroove">
+          <div class="card-body">
+            <h5 class="card-title">Late'n Groove</h5>
+            <p class="card-text">In this formation we played mostly tunes from Chick Corea, Edu Lobo, Tania Maria - classic latin jazz.</p>
+            <p class="card-text"><small class="text-muted">Listen to a couple of tracks:
+              <p> Yatra-Ta
+              <audio controls>
+                <source src="media/audio/Yatra-Ta.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+            </p>
+            <p> Ponteio
+            <audio controls>
+              <source src="media/audio/Ponteio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+            <p> Morning
+            <audio controls>
+              <source src="media/audio/Morning.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
     </body>
 </html>
